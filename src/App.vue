@@ -20,7 +20,7 @@ export default {
 
 <style>
 body{
-  background-color: #ffffff;
+  background-color: white;
   margin: 0;
   box-sizing: border-box;
 }
@@ -37,23 +37,24 @@ nav {
   align-items: space-between;
   justify-content: space-between; 
   padding: 0px 30px 0px 30px;
-  background-color: #c2d9c2;
-  border-bottom: rgb(107, 130, 107, .5) dotted 2px;
+  background-color: #f3f3f3;
+  border-bottom: rgba(231, 231, 231, 0.5) solid 2px;
   /* border-bottom: hsl(100deg 80% 25% / 0.75); */
 }
 
 nav a {
   font-weight: bold;
-  color: #625d5d;
+  color: #2c3e50;
 }
 
 nav a:hover {
   font-weight: bold;
-  color: #06e4f8;
+  color: #1b1b1b;
 }
 
 nav a.router-link-exact-active {
-  color: #42b983;
+  /* color: #ffffff; */
+  text-decoration: underline;
 }
 .router-link{
     text-decoration: none;

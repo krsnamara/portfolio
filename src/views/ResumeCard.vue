@@ -35,16 +35,12 @@
                 <div class="bio-statement">
                     <h3>Experience</h3>
                     <hr>
-                    <div class="project-title">
+                    <div class="experience-title">
                         <h4>Made by Mookie</h4>
-                        <div class="project-links">
-                            <a href="https://sacredhoundstore.herokuapp.com/">Site</a> |
-                            <a href="https://github.com/krsnamara/sacredhoundstore">Github</a>
-                        </div> 
+                        <p>An e-commerce site for a friends art project</p>
                     </div>
                     <ul>
-                        <p>An e-commerce site for a friends art project</p>
-                        <li></li>
+                        <li>Interfaced with clients such as Darren Aronofsky, Domino Magazine, Ralph Lauren, Sneaker News, and more.</li>
                     </ul>
                     <!-- <p class="experience">Experienced in JavaScript and Python based programming, with a background in construction and property maintenance in Brooklyn, NY. Possess strong skills in communication, function, and project management that help tech companies build beautiful, responsive applications. Committed empathetic sociable developer with a passion for creating positive energy towards goals and projects. Seeking a challenging work ethic that produces useful and well thought out solutions for everyday tasks. Efficient with time allocation and ability to break down larger projects into smaller goals to achieve great ends.</p> -->
                 </div>
@@ -53,12 +49,12 @@
                     <hr>
                     <div class="education-wrapper">
                         <div class="education">
-                        <h4>General Assembly</h4>
-                        <p>New York, NY</p>
+                            <h4>General Assembly</h4>
+                            <p>New York, NY</p>
                         </div> 
                         <div class="education">
-                        <p>Full Stack Software Enginerring Remote</p>
-                        <p>11/2022-02/2023</p>
+                            <p>Full Stack Software Enginerring Remote</p>
+                            <p>11/2022-02/2023</p>
                         </div> 
                     </div>
                 </div>
@@ -82,7 +78,6 @@ export default {
         flex-direction: column;
         justify-content: left;
         align-items: start;
-
     }
     .resume-wrapper{
         font-family: 'Open Sans', sans-serif;
@@ -95,7 +90,11 @@ export default {
         justify-content: center;
         align-items: center;
         gap: 50px;
-        margin-top: 10px;
+        margin: 10px 0px 10px 0px;
+        /* background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url('../assets/noise.svg'); */
+        /* border: solid black 2px;
+        border-radius: 5px; */
+        padding: 16px 0px 16px 0px;
     }
     .bio-statement{
         width:90%;
@@ -120,6 +119,12 @@ export default {
         display: flex;
         flex-direction: column;
         margin: -20px;
+    }
+    .experience-title{
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+        align-items: start;
     }
     .education-wrapper{
         display: flex;

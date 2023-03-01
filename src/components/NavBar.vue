@@ -5,11 +5,12 @@
         <h4>Full Stack Software Engineer</h4>
       </div>
       <div class="nav-wrapper">
-          <router-link class="router-link" to="/">home</router-link> |
-          <router-link class="router-link" to="/resume">resume</router-link> |
-          <router-link class="router-link" to="/contact">contact</router-link> |
-          <router-link class="router-link" to="/projects">projects</router-link>
+          <router-link class="router-link" to="/">home</router-link>
+          <router-link class="router-link" to="/">projects</router-link>
+          <router-link class="router-link" to="/resume">resume</router-link>
+          <router-link class="router-link" to="/contact">contact</router-link>
       </div>
+      
   </nav>
 </template>
 
@@ -27,13 +28,30 @@ h1 + h4 {
 .nav-wrapper{
   display: flex;
   align-items:center;
+  gap: 15px;
 }
 .name-title{
   display: flex;
   flex-direction: column;
   align-items: start;
-  text-emphasis:inherit;
   color:black;
   }
 
+  @media only screen and (max-width: 450px){
+    *{
+        box-sizing: border-box;
+    }
+    .name-title{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    color:black;
+    }
+    .nav-wrapper{
+      display: flex;
+      flex-direction: column;
+      gap: 5px;
+      padding: 5px 0px 5px 0px;
+    }
+  }
 </style>
