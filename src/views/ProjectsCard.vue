@@ -34,12 +34,21 @@
     </div> -->
 
     <!-- FOR DEVELOPMENT -->
-    {{ projectsData.ProjectsArray }}
     <div class="main-container">
         <div class="project-card" v-for="(items, index) in projectData.ProjectsArray" v-bind:key="items">
             <h2>{{projectData.ProjectsArray[index].Title}}</h2>
-            <img :src="projectData.ProjectsArray[index].Image" alt=""> 
-            <p>{{ projectData.ProjectsArray[index].About}}</p>
+            <div class="image-wrapper">
+                <img :src="projectData.ProjectsArray[index].Image" alt=""> 
+            </div>
+            <h3>{{ projectData.ProjectsArray[index].About}}</h3>
+            <p>____________________________</p>
+            <ul class="feature-list">
+                <li>{{projectData.ProjectsArray[index].FeatureOne}}</li>
+                <li>{{projectData.ProjectsArray[index].FeatureTwo}}</li>
+                <li>{{projectData.ProjectsArray[index].FeatureThree}}</li>
+                <li>{{projectData.ProjectsArray[index].FeatureFour}}</li>
+            </ul>
+
             <div class="links">
                 <a :href="projectData.ProjectsArray[index].Link1" target="_blank">
                     <img src="https://www.svgrepo.com/show/68072/github-logo-face.svg" alt="">
@@ -54,7 +63,7 @@
 </template>
     
     <script>
-    import jsonData from "/projects.json" // for development purposes to not over use lambda
+    import jsonData from '/projects.json' // for development purposes to not over use lambda
     // import axios from 'axios'
     export default {
         data(){
@@ -85,11 +94,10 @@
     </script>
     
     <style scoped>
-        .nav-wrapper{
+        .feature-list{
             display: flex;
-            justify-content: space-around;
-            background-color: darkslateblue;
-            border-radius: 25px;
+            flex-direction: column;
+            justify-content: flex-start;
         }
         .loading-container{
             margin-top: 50px;
@@ -103,12 +111,12 @@
             justify-content: center;
             align-items: center;
             background-color: #F3EED9;
-            border-radius: 25px;
+            /* border-radius: 25px; */
             width:250px;
         }
         .loader {
-        border: 16px solid #0a461c; /* Light grey */
-        border-top: 16px solid #0bda4d; /* Blue */
+        border: 16px solid #f0f0f0; /* Light grey */
+        border-top: 16px solid #2b2b2b; /* Blue */
         border-radius: 50%;
         width: 120px;
         height: 120px;
@@ -126,24 +134,30 @@
             align-items: center;
             flex-wrap: wrap;
         }
+        .project-card p{
+            margin: -20px;
+        }
         .project-card{
             display: flex;
             flex-direction: column;
             margin: 10px;
-            padding: 10px;
-            width: 520px;
-            height: 700px;
-            flex-wrap: 0 0 40%;
+            width: 30%;
+            height: 100%;
+            flex-wrap: 0 0 20%;
             justify-content: flex-start;
             align-items: center;
-            background-color: #F3EED9;
-            border-radius: 25px;
-            box-shadow: rgb(0, 0, 0, .24) 0px 3px 8px;
+            background-color: #e3e3e3;
+            /* object-fit: contain; */
         }
-        .project-card img{
-          height: 20rem;
-          max-width: 520px;
-
+        .image-wrapper{
+            margin: -20px;
+            width: 70%;
+            object-fit: contain;
+        }
+        img{
+          height: 100%;
+          width: 100%;
+          /* object-fit: contain;  */
         }
         .detail-container {
             max-width:60%;
