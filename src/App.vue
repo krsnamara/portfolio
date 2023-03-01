@@ -23,6 +23,9 @@ body{
   background-color: white;
   margin: 0;
   box-sizing: border-box;
+  /* display: flex;
+  flex-direction: column;
+  min-width: 100vh; */
 }
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
@@ -34,6 +37,8 @@ body{
 nav {
   font-family:'Open Sans', sans-serif;
   display: flex;
+  /* position: fixed; */
+  /* width: 100%; */
   align-items: space-between;
   justify-content: space-between; 
   padding: 0px 30px 0px 30px;

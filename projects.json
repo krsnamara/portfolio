@@ -1,0 +1,20 @@
+{
+    "ProjectsArray" : [
+        {
+            "id" : 1,
+            "Title" : "Dad Jokes All Day",
+            "About" : "This was Project 1 for General Assembly SEI. We were tasked with making an API call using Ajax to a third party API. Once data was recieved we were then tasked with displaying that information. I decided to make two onClick event listeners, one for the setup and the second for the punchline.",
+            "Image" : "https://i.imgur.com/ckLPBCK.png",
+            "Link1" : "https://github.com/krsnamara/dad-jokes-all-day",
+            "Link2" : "https://krsnamara.github.io/dad-jokes-all-day/"
+        },
+        {
+            "id" : 2,
+            "Title" : "Project Two",
+            "About" : "affogato chicharrones pug scenester sustainable kitsch health goth master cleanse.",
+            "Image" : "https://i.imgur.com/AzDFeoM.png",            
+            "Link1" : "https://github.com/krsnamara/sacredhoundstore",
+            "Link2" : "https://sacredhoundstore.herokuapp.com/"
+        }
+    ]
+}

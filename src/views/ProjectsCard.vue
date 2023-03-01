@@ -1,5 +1,5 @@
 <template>
-    <div v-if="loading"> 
+    <!-- <div v-if="loading"> 
         <div class="loading-container">
         <div class="loading">
             <div class="loader"></div>
@@ -31,35 +31,56 @@
                 </div> 
             </div>
         </div>
+    </div> -->
+
+    <!-- FOR DEVELOPMENT -->
+    {{ projectsData.ProjectsArray }}
+    <div class="main-container">
+        <div class="project-card" v-for="(items, index) in projectData.ProjectsArray" v-bind:key="items">
+            <h2>{{projectData.ProjectsArray[index].Title}}</h2>
+            <img :src="projectData.ProjectsArray[index].Image" alt=""> 
+            <p>{{ projectData.ProjectsArray[index].About}}</p>
+            <div class="links">
+                <a :href="projectData.ProjectsArray[index].Link1" target="_blank">
+                    <img src="https://www.svgrepo.com/show/68072/github-logo-face.svg" alt="">
+                </a>
+                <a :href="projectData.ProjectsArray[index].Link2" target="_blank">
+                    <img src="https://www.svgrepo.com/show/273836/links-link.svg" alt="">
+                </a>
+            </div>
+        </div>
     </div>
-    </template>
+
+</template>
     
     <script>
-    import axios from 'axios'
+    import jsonData from "/projects.json" // for development purposes to not over use lambda
+    // import axios from 'axios'
     export default {
         data(){
-            return{ 
-                lambdaReturnData: {},
-                loading: true
+            return{
+                projectData: jsonData, // dev hard coding 
+                // lambdaReturnData: {},
+                // loading: true
             }
         },
-        methods:{
-            GetProjects(){
-                this.loading = true; // the loading begins
-                axios.get('https://9349h8hp52.execute-api.us-east-1.amazonaws.com/items')
-                .then(response => {
-                    console.log(response)
-                    this.lambdaReturnData.Items = response.data;
-                }).catch(err =>{
-                    console.log(err);
-                }).finally(() => {
-                    this.loading = false;
-                }) // sets loading to false when request finished
-            }
-        },
-        mounted(){
-            this.GetProjects();
-        }
+        // methods:{
+        //     GetProjects(){
+        //         this.loading = true; // the loading begins
+        //         axios.get('https://9349h8hp52.execute-api.us-east-1.amazonaws.com/items')
+        //         .then(response => {
+        //             console.log(response)
+        //             this.lambdaReturnData.Items = response.data;
+        //         }).catch(err =>{
+        //             console.log(err);
+        //         }).finally(() => {
+        //             this.loading = false;
+        //         }) // sets loading to false when request finished
+        //     }
+        // },
+        // mounted(){
+        //     this.GetProjects();
+        // }
     }
     </script>
     
@@ -113,7 +134,7 @@
             width: 520px;
             height: 700px;
             flex-wrap: 0 0 40%;
-            justify-content:start;
+            justify-content: flex-start;
             align-items: center;
             background-color: #F3EED9;
             border-radius: 25px;
@@ -175,7 +196,7 @@
             width: 520px;
             height: fit-content;
             flex-wrap: 0 0 40%;
-            justify-content:start;
+            justify-content: flex-start;
             align-items: center;
             background-color: #F3EED9;
             border-radius: 25px;

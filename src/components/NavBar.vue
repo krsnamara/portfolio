@@ -6,7 +6,7 @@
       </div>
       <div class="nav-wrapper">
           <router-link class="router-link" to="/">home</router-link>
-          <router-link class="router-link" to="/">projects</router-link>
+          <router-link class="router-link" to="/projects">projects</router-link>
           <router-link class="router-link" to="/resume">resume</router-link>
           <router-link class="router-link" to="/contact">contact</router-link>
       </div>
@@ -33,7 +33,7 @@ h1 + h4 {
 .name-title{
   display: flex;
   flex-direction: column;
-  align-items: start;
+  align-items: flex-start;
   color:black;
   }
 
@@ -44,7 +44,7 @@ h1 + h4 {
     .name-title{
     display: flex;
     flex-direction: column;
-    align-items: start;
+    align-items: flex-start;
     color:black;
     }
     .nav-wrapper{

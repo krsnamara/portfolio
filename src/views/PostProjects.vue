@@ -1,27 +1,6 @@
 <template>
     <div class="wrapper">
         <div class="main-container">
-            <div class="container-one">
-                <div class="profile">
-                    <img src="../assets/profile-pic.jpeg" alt="">
-                    <h3>Martin Fitzpatrick</h3>
-                    <p>Software Developover</p>
-                </div>
-                <div class="social-links">
-                    <div class="link">
-                        <a href="https://github.com/krsnamara">
-                            <img src="https://www.svgrepo.com/show/68072/github-logo-face.svg" alt="">
-                            <h2>Github</h2>
-                        </a>
-                        </div>
-                    <div class="link">
-                        <a href="https://www.linkedin.com/in/martinj-fitzpatrick/">
-                            <img src="https://www.svgrepo.com/show/390272/linkedin-linked-in.svg" alt="">
-                            <h2>LinkedIn</h2>
-                        </a>
-                        </div>
-                </div>
-            </div>
             <div class="container-two">
                 <div class="input-wrapper">
                     <div>
@@ -55,14 +34,6 @@
                         <button class="btn" type="submit" @click="PostProject()">Submit</button>
                     </div>
                 </div>
-                <div class="button-container">
-                    <div class="projects-button">
-                        <a href="/">Home</a>
-                    </div>
-                    <div class="projects-button">
-                        <a href="/projects">Projects</a>
-                    </div>
-                </div> 
             </div>
             </div>
         </div>
@@ -98,13 +69,7 @@
     </script>
     
     <style scoped>
-    .outer-wrapper{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
     .input-wrapper {
-        background-color: #F3EED9;
         border-radius: 20px;
         stroke: black 2px solid;
         margin: 2.5%;
@@ -112,7 +77,6 @@
         padding: 15px;
         min-width: 400px;
         max-width: 450px;
-        /* padding-bottom: 25px; */
         display: flex;
         flex-direction: column;
     }
@@ -121,77 +85,24 @@
         justify-content: space-between;
         align-items: center;
         padding: 0px 50px 0px 50px;
-    
     }
     .wrapper{
         display: flex;
         justify-content: center;
         align-items: center;
-        padding-top: 20px;
-        /* width: 60%; */
-    }
-    img{
-        height:20px;
-    }
-    .button-container{
-            display: flex;
-            flex-direction: row;
-            justify-content: center;
-            align-items: center;
-    }
-    .projects-button{
-        background-color: #005ca4;
-        border-radius: 15px;
-        padding: 5px;
-        margin: 5px;
-    }
-    .projects-button a{
-        text-decoration: none;
-        color: #ffffff;
+        padding: 20px 0px 20px 0px;
+
     }
     .main-container{
         display: flex;
         flex-direction: row;
-        /* justify-content: center;
-        align-items: center; */
-        /* background-color: #28690F; */ /* green pallate */
-        background-color: #A9001B;
-        border-radius: 25px;
-        width: 60%;
-        box-shadow: rgba(0, 0, 0, 0.5) 0px 3px 8px;
-    }
-    .container-one{
-        /* background-color: #6ABF46; */ /* green pallate */
-        background-color: #E09990;
-        padding: 2.5%;
-        width: 30%;
-        border-radius: 25px;
-    }
-    .profile img{
-        height: 10rem;
-        border-radius: 50%;
-    }
-    .link a{
-        text-decoration: none;
-        color: #2c3e50;
-        font-size: 10px;
-    }
-    .link img{
-        height: 3rem;
-    }
-    .link img:hover{
-        height: 3rem;
-        /* // filter:grayscale(100%); */
-        filter: invert(100%);
+        background-color: #b3b3b3;
     }
     .container-two{
-        /* background-color:#6ABF46; */ /* green pallate */
-        background-color:#F3EED9;
         margin: 2.5%;
         width: 70%;
         padding: 15px;
-        border-radius: 25px;
-        
+        border-radius: 25px;  
     }
     .btn{
         margin-top: 25px;
@@ -215,7 +126,7 @@
         /* width: 60%; */
         }
         .input-wrapper {
-        background-color: #F3EED9;
+        /* background-color: #F3EED9; */
         border-radius: 20px;
         stroke: black 2px solid;
         margin: 2.5%;
@@ -235,10 +146,6 @@
         padding: 0px 50px 0px 50px;
     
     }
-
-        img{
-            height:20px;
-        }
         .main-container{
             display: flex;
             flex-direction: column;
@@ -250,81 +157,12 @@
             width: 100%;
             box-shadow:none;
         }
-        .container-one{
-            /* background-color: #6ABF46; */ /* green pallate */
-            display: flex;
-            flex-direction: column;
-            justify-content: space-between;
-            background-color: #E09990;
-            padding: 5%;
-            width: 100%;
-            border-radius: 0;
-            margin: 0;
-        }
-        .profile{
-            padding-left: 0%;
-            display: flex;
-            align-items: center;
-        }
-        .profile img{
-            height: 6rem;
-            border-radius: 50%;
-        }
-        .link a{
-            text-decoration: none;
-            color: #2c3e50;
-            font-size: 10px;
-        }
-        .link h2{
-            display: none;
-        }
-        .link img{
-            height: 2rem;
-        }
-        .link img:hover{
-            height: 3rem;
-            /* // filter:grayscale(100%); */
-            filter: invert(100%);
-        }
-        .social-links{
-            display: flex;
-            justify-content:flex-end;
-            padding-right: 4%;
-            gap: 10px;
-        }
         .container-two{
-            /* background-color:#6ABF46; */ /* green pallate */
             background-color:#F3EED9;
             margin: 0%;
             width: 100%;
             padding: 0%;
-            /* padding: 2.5%; */
-            border-radius: 0;
-            /* margin: 0; */
-            
-        }
-        .about-me{
-            text-align: left;
-            border-radius: 25px;
-        }
-        .logos img{
-            height: 2rem;
-        }
-        .button-container{
-            display: flex;
-            flex-direction: row;
-            justify-content: center;
-            align-items: center;
-        }
-        .projects-button{
-            background-color: #005ca4;
-            border-radius: 15px;
-            padding: 5px;
-            margin: 5px;
-        }
-        .projects-button a{
-            text-decoration: none;
-            color: #ffffff;
+            border-radius: 0;  
         }
         }
     </style>

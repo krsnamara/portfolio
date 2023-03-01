@@ -1,14 +1,14 @@
 <template>
     <div class="resume-wrapper">
         <div class="resume-html">
-            <h5>Staten Island, NY</h5>
+            <!-- <h5></h5>
             <div class="github-linkedin">
                 <a href="https://github.com/krsnamara">Github</a>   |  
                 <a href="www.linkedin.com/in/martinj-fitzpatrick">LinkedIn</a>
-            </div>
+            </div> -->
             <div class="bio-wrapper">
                 <div class="bio-statement">
-                    <h3>Full Stack Software Developer</h3>
+                    <h3>About Me</h3>
                     <hr>
                     <p class="bio-paragraph">Experienced in JavaScript and Python based programming, with a background in construction, property maintenance and the hustler gig life in Brooklyn, NY. Possess strong skills in communication, function, and project management that help tech companies build beautiful, responsive applications. Committed empathetic sociable developer with a passion for creating positive energy towards goals and projects. Seeking a challenging work ethic that produces useful and well thought out solutions for everyday tasks. Efficient with time allocation and ability to break down larger projects into smaller goals to achieve great ends.</p>
                 </div>
@@ -77,11 +77,11 @@ export default {
         display: flex;
         flex-direction: column;
         justify-content: left;
-        align-items: start;
+        align-items: flex-start;
     }
     .resume-wrapper{
         font-family: 'Open Sans', sans-serif;
-        margin-top: -45px;
+        /* margin-top: -45px; */
         padding: 0px 30px 0px 30px;
     }
     .bio-wrapper{
@@ -91,9 +91,6 @@ export default {
         align-items: center;
         gap: 50px;
         margin: 10px 0px 10px 0px;
-        /* background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url('../assets/noise.svg'); */
-        /* border: solid black 2px;
-        border-radius: 5px; */
         padding: 16px 0px 16px 0px;
     }
     .bio-statement{
@@ -109,7 +106,7 @@ export default {
     .project-title{
         display: flex;
         align-items: center;
-        justify-content: start;
+        justify-content: flex-start;
         gap: 10px;
     }
     .project-title a {
@@ -124,7 +121,7 @@ export default {
         display: flex;
         flex-direction: column;
         justify-content: left;
-        align-items: start;
+        align-items: flex-start;
     }
     .education-wrapper{
         display: flex;

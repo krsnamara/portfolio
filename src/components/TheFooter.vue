@@ -21,20 +21,14 @@
 
 <style scoped>
     footer{
-        display: flex;
-        align-items: center;
-        justify-content:end;
-        gap: 25px;
-        background-color: #f3f3f3; 
-        height: 100px;
-        width: 100%;
-        /* position: fixed; */
-        text-align: center;
+        margin-top: auto;
+        background-color: #f3f3f3;
+        /* position: fixed;  */
     }
     .social-links{
         display: flex;
-        justify-content: end;
-        align-items: end;
+        justify-content: flex-end;
+        align-items: flex-end;
         padding-right: 10%;
     }
     .link a{
