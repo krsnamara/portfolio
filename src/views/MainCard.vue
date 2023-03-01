@@ -35,7 +35,7 @@
                         <img src="https://www.svgrepo.com/show/310932/javascript.svg" alt="">
                         <img src="https://www.svgrepo.com/show/439173/git.svg" alt="">
                         <img src="https://www.svgrepo.com/show/426053/git.svg" alt="">
-                        <img src="https://www.svgrepo.com/show/349404/heroku.svg" alt="">
+                        <img src="https://e7.pngegg.com/pngimages/735/462/png-clipart-heroku-computer-icons-computer-servers-catalog-server-cloud-storage-24-computer-network-text.png" alt="">
                         <img src="https://www.svgrepo.com/show/306463/netlify.svg" alt="">
                         <img src="https://www.svgrepo.com/show/330398/express.svg" alt="">
                         <img src="https://www.svgrepo.com/show/473729/mongodb.svg" alt="">
@@ -49,9 +49,6 @@
                         <div class="projects-button">
                             <a href="/projects">My Projects</a>
                         </div>
-                        <div class="projects-button">
-                            <a href="/resume">My Resume</a>
-                        </div>
                     </div> 
                 </div>
             </div>
@@ -59,13 +56,107 @@
     </div>
     </template>
     
-    <script>
-    export default {
+<script>
+export default {
+
+}
+</script>
+
+<style scoped>
+.nav{
+display: flex;
+align-items: end;
+justify-content: end; 
+}
+.router-link{
+text-decoration: none;
+}
+.wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    /* width: 60%; */
+}
+img{
+    height:20px;
+}
+.main-container{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center;
+    align-items: center; */
+    /* background-color: #28690F; */ /* green pallate */
+    background-color: #A9001B;
+    border-radius: 25px;
+    width: 60%;
+    box-shadow: rgba(0, 0, 0, 0.5) 0px 3px 8px;
+}
+.container-one{
+    /* background-color: #6ABF46; */ /* green pallate */
+    background-color: #E09990;
+    padding: 2.5%;
+    width: 30%;
+    border-radius: 25px;
+}
+.profile img{
+    height: 10rem;
+    border-radius: 50%;
+}
+.link a{
+    text-decoration: none;
+    color: #2c3e50;
+    font-size: 10px;
+}
+.link img{
+    height: 3rem;
+}
+.link img:hover{
+    height: 3rem;
+    /* // filter:grayscale(100%); */
+    filter: invert(100%);
+}
+.container-two{
+    /* background-color:#6ABF46; */ /* green pallate */
+    background-color:#F3EED9;
+    margin: 2.5%;
+    width: 70%;
+    padding: 15px;
+    border-radius: 25px;
     
+}
+.about-me{
+    text-align: left;
+    border-radius: 25px;
+}
+.logos img{
+    height: 3rem;
+}
+.button-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.projects-button{
+    background-color: #005ca4;
+    border-radius: 15px;
+    padding: 5px;
+    margin: 5px;
+}
+.projects-button a{
+    text-decoration: none;
+    color: #ffffff;
+}
+@media only screen and (max-width: 950px){
+    .main-container{
+        width: 95%;
     }
-    </script>
-    
-    <style scoped>
+}
+@media only screen and (max-width: 450px){
+    *{
+        box-sizing: border-box;
+    }
     .wrapper{
         display: flex;
         justify-content: center;
@@ -78,24 +169,33 @@
     }
     .main-container{
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         /* justify-content: center;
         align-items: center; */
         /* background-color: #28690F; */ /* green pallate */
-        background-color: #A9001B;
-        border-radius: 25px;
-        width: 60%;
-        box-shadow: rgba(0, 0, 0, 0.5) 0px 3px 8px;
+        background-color:transparent;
+        border-radius: 0px;
+        width: 100%;
+        box-shadow:none;
     }
     .container-one{
         /* background-color: #6ABF46; */ /* green pallate */
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
         background-color: #E09990;
-        padding: 2.5%;
-        width: 30%;
-        border-radius: 25px;
+        padding: 5%;
+        width: 100%;
+        border-radius: 0;
+        margin: 0;
+    }
+    .profile{
+        padding-left: 0%;
+        display: flex;
+        align-items: center;
     }
     .profile img{
-        height: 10rem;
+        height: 6rem;
         border-radius: 50%;
     }
     .link a{
@@ -103,21 +203,32 @@
         color: #2c3e50;
         font-size: 10px;
     }
+    .link h2{
+        display: none;
+    }
     .link img{
-        height: 3rem;
+        height: 2rem;
     }
     .link img:hover{
         height: 3rem;
         /* // filter:grayscale(100%); */
         filter: invert(100%);
     }
+    .social-links{
+        display: flex;
+        justify-content:flex-end;
+        padding-right: 4%;
+        gap: 10px;
+    }
     .container-two{
         /* background-color:#6ABF46; */ /* green pallate */
         background-color:#F3EED9;
-        margin: 2.5%;
-        width: 70%;
-        padding: 15px;
-        border-radius: 25px;
+        margin: 0%;
+        width: 100%;
+        padding: 8%;
+        /* padding: 2.5%; */
+        border-radius: 0;
+        /* margin: 0; */
         
     }
     .about-me{
@@ -125,7 +236,7 @@
         border-radius: 25px;
     }
     .logos img{
-        height: 3rem;
+        height: 2rem;
     }
     .button-container{
         display: flex;
@@ -143,111 +254,5 @@
         text-decoration: none;
         color: #ffffff;
     }
-    @media only screen and (max-width: 950px){
-        .main-container{
-            width: 95%;
-        }
-    }
-    @media only screen and (max-width: 450px){
-        *{
-            box-sizing: border-box;
-        }
-        .wrapper{
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            padding-top: 20px;
-            /* width: 60%; */
-        }
-        img{
-            height:20px;
-        }
-        .main-container{
-            display: flex;
-            flex-direction: column;
-            /* justify-content: center;
-            align-items: center; */
-            /* background-color: #28690F; */ /* green pallate */
-            background-color:transparent;
-            border-radius: 0px;
-            width: 100%;
-            box-shadow:none;
-        }
-        .container-one{
-            /* background-color: #6ABF46; */ /* green pallate */
-            display: flex;
-            flex-direction: column;
-            justify-content: space-between;
-            background-color: #E09990;
-            padding: 5%;
-            width: 100%;
-            border-radius: 0;
-            margin: 0;
-        }
-        .profile{
-            padding-left: 0%;
-            display: flex;
-            align-items: center;
-        }
-        .profile img{
-            height: 6rem;
-            border-radius: 50%;
-        }
-        .link a{
-            text-decoration: none;
-            color: #2c3e50;
-            font-size: 10px;
-        }
-        .link h2{
-            display: none;
-        }
-        .link img{
-            height: 2rem;
-        }
-        .link img:hover{
-            height: 3rem;
-            /* // filter:grayscale(100%); */
-            filter: invert(100%);
-        }
-        .social-links{
-            display: flex;
-            justify-content:flex-end;
-            padding-right: 4%;
-            gap: 10px;
-        }
-        .container-two{
-            /* background-color:#6ABF46; */ /* green pallate */
-            background-color:#F3EED9;
-            margin: 0%;
-            width: 100%;
-            padding: 8%;
-            /* padding: 2.5%; */
-            border-radius: 0;
-            /* margin: 0; */
-            
-        }
-        .about-me{
-            text-align: left;
-            border-radius: 25px;
-        }
-        .logos img{
-            height: 2rem;
-        }
-        .button-container{
-            display: flex;
-            flex-direction: row;
-            justify-content: center;
-            align-items: center;
-        }
-        .projects-button{
-            background-color: #005ca4;
-            border-radius: 15px;
-            padding: 5px;
-            margin: 5px;
-        }
-        .projects-button a{
-            text-decoration: none;
-            color: #ffffff;
-        }
-    }
-    </style>
+}
+</style>

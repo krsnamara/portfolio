@@ -1,8 +1,9 @@
 import { createRouter, createWebHistory } from 'vue-router'
-import MainCard from '../components/MainCard.vue'
-import PostProjects from '../components/PostProjects.vue'
-import ProjectsCard from '../components/ProjectsCard.vue'
-import ResumeCard from '../components/ResumeCard.vue'
+import MainCard from '../views/MainCard.vue'
+import PostProjects from '../views/PostProjects.vue'
+import ProjectsCard from '../views/ProjectsCard.vue'
+import ResumeCard from '../views/ResumeCard.vue'
+import ContactCard from '../views/ContactCard.vue'
 
 const routes = [
   {
@@ -19,6 +20,11 @@ const routes = [
     path: '/resume',
     name: 'resume',
     component: ResumeCard
+  },
+  {
+    path: '/contact',
+    name: 'contact',
+    component: ContactCard
   },
   {
     path: '/post',
