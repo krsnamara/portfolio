@@ -16,7 +16,7 @@
             "id" : 2,
             "Title" : "Fitz-List",
             "About" : "LinkedIn for the Trades",
-            "Image" : "https://i.imgur.com/vDu3pYb.png", 
+            "Image" : "https://github.com/krsnamara/FitzList/raw/master/public/imgs/readme-img/fitzlist-square.png", 
             "FeatureOne" : "Express Full Stack app using EJS templates.",
             "FeatureTwo" : "Full CRUD for signed in Users to create profiles and job postings.",
             "FeatureThree" : "MongoDB connection to store User data.",

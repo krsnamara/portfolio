@@ -38,14 +38,20 @@ h1 + h4 {
   }
 
   @media only screen and (max-width: 450px){
-    *{
-        box-sizing: border-box;
+    h1{
+      text-align: left;
+    }
+    h4 {
+      text-align: left;
+      /* font-size: .7rem; */
     }
     .name-title{
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    justify-content: flex-start;
+    align-items:flex-start;
     color:black;
+    /* width: 30%; */
     }
     .nav-wrapper{
       display: flex;

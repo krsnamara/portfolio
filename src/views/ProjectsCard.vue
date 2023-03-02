@@ -37,25 +37,29 @@
     <div class="main-container">
         <div class="project-card" v-for="(items, index) in projectData.ProjectsArray" v-bind:key="items">
             <h2>{{projectData.ProjectsArray[index].Title}}</h2>
-            <div class="image-wrapper">
-                <img :src="projectData.ProjectsArray[index].Image" alt=""> 
-            </div>
-            <h3>{{ projectData.ProjectsArray[index].About}}</h3>
-            <p>____________________________</p>
-            <ul class="feature-list">
-                <li>{{projectData.ProjectsArray[index].FeatureOne}}</li>
-                <li>{{projectData.ProjectsArray[index].FeatureTwo}}</li>
-                <li>{{projectData.ProjectsArray[index].FeatureThree}}</li>
-                <li>{{projectData.ProjectsArray[index].FeatureFour}}</li>
-            </ul>
-
-            <div class="links">
-                <a :href="projectData.ProjectsArray[index].Link1" target="_blank">
-                    <img src="https://www.svgrepo.com/show/68072/github-logo-face.svg" alt="">
-                </a>
-                <a :href="projectData.ProjectsArray[index].Link2" target="_blank">
-                    <img src="https://www.svgrepo.com/show/273836/links-link.svg" alt="">
-                </a>
+            <div class="card_inner">
+                <div class="image-wrapper">
+                    <img :src="projectData.ProjectsArray[index].Image" alt=""> 
+                </div>
+                <h3>{{ projectData.ProjectsArray[index].About}}</h3>
+                <p>____________________________</p>
+                <div class="features">
+                    <ul class="feature-list">
+                        <li>{{projectData.ProjectsArray[index].FeatureOne}}</li>
+                        <li>{{projectData.ProjectsArray[index].FeatureTwo}}</li>
+                        <li>{{projectData.ProjectsArray[index].FeatureThree}}</li>
+                        <li>{{projectData.ProjectsArray[index].FeatureFour}}</li>
+                    </ul>
+                    
+                    <div class="links">
+                        <a :href="projectData.ProjectsArray[index].Link1" target="_blank">
+                            <img src="https://www.svgrepo.com/show/68072/github-logo-face.svg" alt="">
+                        </a>
+                        <a :href="projectData.ProjectsArray[index].Link2" target="_blank">
+                            <img src="https://www.svgrepo.com/show/273836/links-link.svg" alt="">
+                        </a>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
@@ -93,6 +97,12 @@
     </script>
     
     <style scoped>
+    .card_inner{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
         .feature-list{
             display: flex;
             flex-direction: column;
@@ -145,7 +155,7 @@
             min-height: 645px;
             height: 100%;
             flex-wrap: 0 0 20%;
-            justify-content: flex-start;
+            justify-content: space-evenly;
             align-items: center;
             background-color: #e3e3e3;
             /* object-fit: contain; */

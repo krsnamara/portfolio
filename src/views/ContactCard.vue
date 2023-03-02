@@ -1,5 +1,10 @@
 <template>
     <div class="wrapper">
+        <div class="message">
+            <h1>Get in touch with me!</h1>
+            <p>Feel free to send me an email about projects you have in mind, collaborations, job opportunities, jokes that make you laugh...</p>
+
+        </div>
         <div class="main-container">
             <input v-model="emailData.name" type="text" placeholder="What's your name?">
             <input v-model="emailData.email" type="email" placeholder="Enter your email">
@@ -56,10 +61,20 @@ export default {
 </script>
 
 <style scoped>
+.message{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin: 20px;
+    padding: 20px;
+
+}
 .wrapper{
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-right: 75px;
 }
 .main-container{
     display: flex;
@@ -67,13 +82,41 @@ export default {
     gap: 20px;
     width: 60%;
     margin: 20px 0px 20px 0px;
-    /* background-color: rgb(246, 246, 246); */
-    /* border: solid 1px black ; */
-    /* border-radius: 5px; */
     padding: 10px;
 
 }
 button{
     cursor: pointer;
 }
+@media only screen and (max-width: 670px){
+    h1{
+        font-size: 1.2rem;
+    }
+    p{
+        font-size: .9rem;
+    }
+    .message{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        margin: 2.5%;
+        padding: 5px;
+    }
+    .wrapper{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-right: 0px;
+    }
+    .main-container{
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        width: 80%;
+        margin: 0px 0px 15px 0px;
+        padding: 5px;
+    }
+        }
 </style>

@@ -44,4 +44,12 @@
         height: 3rem;
         filter: invert(100%);
     }
+    @media only screen and (max-width: 450px){
+    .social-links{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: flex-end;
+        padding-right: 0%;
+    }
+  }
 </style>
