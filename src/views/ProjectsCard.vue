@@ -59,7 +59,6 @@
             </div>
         </div>
     </div>
-
 </template>
     
     <script>
@@ -133,6 +132,7 @@
             justify-content: center;
             align-items: center;
             flex-wrap: wrap;
+            padding: 15px;
         }
         .project-card p{
             margin: -20px;
@@ -142,6 +142,7 @@
             flex-direction: column;
             margin: 10px;
             width: 30%;
+            min-height: 645px;
             height: 100%;
             flex-wrap: 0 0 20%;
             justify-content: flex-start;
@@ -178,22 +179,6 @@
             background-color: rgb(9, 9, 236, .5);
             border-radius: 20px;
         }
-        .button-container{
-            display: flex;
-            flex-direction: row;
-            justify-content: center;
-            align-items: center;
-        }
-        .projects-button{
-            background-color: #005ca4;
-            border-radius: 15px;
-            padding: 5px;
-            margin: 5px;
-        }
-        .projects-button a{
-            text-decoration: none;
-            color: #ffffff;
-        }
         @media only screen and (max-width: 450px){
             *{
                 box-sizing: border-box;
@@ -212,10 +197,8 @@
             flex-wrap: 0 0 40%;
             justify-content: flex-start;
             align-items: center;
-            background-color: #F3EED9;
-            border-radius: 25px;
-            box-shadow: rgb(0, 0, 0, .24) 0px 3px 8px;
+            background-color: #f2f2f2;
+            
         }
-
         }
     </style>
