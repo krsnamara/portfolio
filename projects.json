@@ -6,9 +6,9 @@
             "About" : "Dad Joke emulator",
             "Image" : "https://github.com/krsnamara/dad-jokes-all-day/raw/master/assests/production1.png",
             "FeatureOne" : "API call using Ajax to a third party resource to display data.",
-            "FeatureTwo" : "https://i.imgur.com/ckLPBCK.png",
+            "FeatureTwo" : "Used jQuery to select HTML id tags for DOM manipulation.",
             "FeatureThree" : "Built out two event listeners, one for the setup and the second for the punchline.",
-            "FeatureFour" : "https://i.imgur.com/ckLPBCK.png",
+            "FeatureFour" : "Refactored third party RapidAPI documentation to fit project needs.",
             "Github" : "https://github.com/krsnamara/dad-jokes-all-day",
             "LiveLink" : "https://sacredhoundstore.herokuapp.com/"
         },

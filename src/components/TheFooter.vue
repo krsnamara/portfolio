@@ -41,8 +41,8 @@
         padding: 10px;
     }
     .link img:hover{
-        height: 3rem;
-        filter: invert(100%);
+        background-color: rgb(9, 9, 236, .5);
+        border-radius: 20px;
     }
     @media only screen and (max-width: 450px){
     .social-links{
