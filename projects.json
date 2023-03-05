@@ -34,7 +34,7 @@
             "FeatureThree" : "Constructed a React front end with Async fetch requests to access MongoDB database.",
             "FeatureFour" : "Generated custom images for CSS animation.",
             "Github" : "https://github.com/krsnamara/pizza-frontend",
-            "LiveLink" : "https://open-chessame.herokuapp.com/"
+            "LiveLink" : "https://cheezus.netlify.app/"
         },
         {
             "id" : 4,

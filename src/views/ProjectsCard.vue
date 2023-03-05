@@ -52,10 +52,10 @@
                     </ul>
                     
                     <div class="links">
-                        <a :href="projectData.ProjectsArray[index].Link1" target="_blank">
+                        <a :href="projectData.ProjectsArray[index].Github" target="_blank">
                             <img src="https://www.svgrepo.com/show/68072/github-logo-face.svg" alt="">
                         </a>
-                        <a :href="projectData.ProjectsArray[index].Link2" target="_blank">
+                        <a :href="projectData.ProjectsArray[index].LiveLink" target="_blank">
                             <img src="https://www.svgrepo.com/show/273836/links-link.svg" alt="">
                         </a>
                     </div>
