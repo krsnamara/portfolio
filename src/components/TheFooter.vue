@@ -77,9 +77,25 @@
     @media only screen and (max-width: 450px){
     .social-links{
         display: flex;
-        justify-content: space-evenly;
-        align-items: flex-end;
-        padding-right: 0%;
+        justify-content: center;
+        align-items: center;
+        padding-right: 10%;
+    }
+    .link img{
+        height: 1.2rem;
+        padding: 10px;
+    }
+    .footer-wrapper{
+        display: grid;
+        grid-template-columns: 60% 40%;
+    }
+    .footer-links{
+        display: flex;
+        align-items:center;
+        justify-content: center;
+        gap: 10px;
+        font-size: 12px;
+        /* padding-right: 80px; */
     }
   }
 </style>
