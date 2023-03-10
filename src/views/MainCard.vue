@@ -164,8 +164,8 @@ text-decoration: none;
     }
     .container-two{
         margin: 0%;
-        width: 100%;
-        padding: 2.5%;
+        width: 90%;
+        padding: 0 0 0 5%;
         border-radius: 0;
     }
     .about-me{
