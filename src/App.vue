@@ -2,17 +2,20 @@
   <div id="app">
     <NavBar/>
     <router-view/>
+    <ContactComponent/>
     <TheFooter/>
   </div>
 </template>
 <script>
 import TheFooter from './components/TheFooter.vue';
 import NavBar from './components/NavBar.vue';
+import ContactComponent from './components/ContactComponent.vue';
 export default {
   name: 'myApp',
   components: {
     TheFooter,
-    NavBar    
+    NavBar,
+    ContactComponent    
   },
 }
 
@@ -23,9 +26,7 @@ body{
   background-color: white;
   margin: 0;
   box-sizing: border-box;
-  /* display: flex;
-  flex-direction: column;
-  min-width: 100vh; */
+  min-height: 100vh;
 }
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
@@ -37,14 +38,16 @@ body{
 nav {
   font-family:'Open Sans', sans-serif;
   display: flex;
-  /* position: fixed; */
-  /* width: 100%; */
-  align-items: space-between;
-  justify-content: space-between; 
-  padding: 0px 30px 0px 30px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 99;
+  /* align-items: space-between; */
+  justify-content:space-between; 
+  padding: 0px 80px 0px 50px;
   background-color: #f3f3f3;
   border-bottom: rgba(231, 231, 231, 0.5) solid 2px;
-  /* border-bottom: hsl(100deg 80% 25% / 0.75); */
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 8px 0px;
 }
 
 nav a {
@@ -63,5 +66,8 @@ nav a.router-link-exact-active {
 }
 .router-link{
     text-decoration: none;
+}
+.page {
+    margin-top: 10rem!important;
 }
 </style>
