@@ -159,7 +159,7 @@ text-decoration: none;
         align-items: center;
     }
     .profile img{
-        height: 6rem;
+        height: 10rem;
         border-radius: 50%;
     }
     .container-two{
