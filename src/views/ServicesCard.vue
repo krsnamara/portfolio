@@ -18,4 +18,9 @@ export default {
     /* padding-bottom: 1%; */
     margin-bottom: 50px;
 }
+@media only screen and (max-width: 450px){
+    .blog{
+        padding: 2% 5% 0 5%;
+    }
+        }
 </style>
