@@ -3,7 +3,7 @@ import MainCard from '../views/MainCard.vue'
 import PostProjects from '../views/PostProjects.vue'
 import ProjectsCard from '../views/ProjectsCard.vue'
 import ResumeCard from '../views/ResumeCard.vue'
-import ContactCard from '../views/ContactCard.vue'
+import ServicesCard from '../views/ServicesCard'
 
 const routes = [
   {
@@ -22,9 +22,9 @@ const routes = [
     component: ResumeCard
   },
   {
-    path: '/contact',
-    name: 'contact',
-    component: ContactCard
+    path: '/blog',
+    name: 'blog',
+    component: ServicesCard
   },
   {
     path: '/post',
@@ -35,7 +35,11 @@ const routes = [
 
 const router = createRouter({
   history: createWebHistory(process.env.BASE_URL),
-  routes
+  routes,
+  scrollBehavior ( to, from, savedPosition) {
+    return savedPosition || {top:0}
+    // return {top:null, left: null, behavior: null}
+  }
 })
 
 export default router

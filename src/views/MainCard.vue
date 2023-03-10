@@ -1,34 +1,36 @@
 <template>
-    <div class="wrapper">
-        <div class="main-container">
-            <div class="container-one">
-                <div class="profile">
-                    <img src="../assets/profile-pic.jpeg" alt="">
+    <div class="outer-wrapper">
+        <div class="wrapper page">
+            <div class="main-container">
+                <div class="container-one">
+                    <div class="profile">
+                        <img src="../assets/profile-pic.jpeg" alt="">
                         <div class="technology-section">
-                            <h3>Technologies Studied</h3>
-                            <div class="logos">
-                                <img src="https://www.svgrepo.com/show/473654/html5.svg" alt="">
-                                <img src="https://www.svgrepo.com/show/473577/css3.svg" alt="">
-                                <img src="https://www.svgrepo.com/show/310932/javascript.svg" alt="">
-                                <img src="https://www.svgrepo.com/show/369644/vue.svg" alt="">
-                                <img src="https://www.svgrepo.com/show/439173/git.svg" alt="">
-                                <img src="https://www.svgrepo.com/show/426053/git.svg" alt="">
-                                <img src="https://www.svgrepo.com/show/473729/mongodb.svg" alt="">
-                                <img src="https://www.svgrepo.com/show/330398/express.svg" alt="">
-                                <img src="https://www.svgrepo.com/show/424896/react-logo-programming-2.svg" alt="">
-                                <img src="https://www.svgrepo.com/show/353657/django-icon.svg" alt="">
-                                <img src="https://www.svgrepo.com/show/377688/text-x-python.svg" alt="">
-                                <img src="https://www.svgrepo.com/show/331300/aws.svg" alt="">
-                                <img src="https://www.svgrepo.com/show/306463/netlify.svg" alt="">
-                                <img src="https://camo.githubusercontent.com/add2c9721e333f0043ac938f3dadbc26a282776e01b95b308fcaba5afaf74ae3/68747470733a2f2f6173736574732e76657263656c2e636f6d2f696d6167652f75706c6f61642f76313538383830353835382f7265706f7369746f726965732f76657263656c2f6c6f676f2e706e67" alt="">
-                            </div>
+                            <h3>Technologies</h3>
                         </div>
+                    </div>
                 </div>
-            </div>
-            <div class="container-two">
-                <div class="about-me">
-                    <h1>About Me</h1>
-                    <p>Experienced in the JavaScript and Python based programming, with a background in construction and property maintenance in Brooklyn, NY. Possess strong skills in communication, function, and project management that help tech companies build beautiful, responsive applications. Committed empathetic sociable developer with a passion for creating positive energy towards goals and projects. Seeking challenging work that produces useful and well thought out solutions for everyday tasks. Efficient with time allocation and ability to break down larger projects into smaller goals to achieve great ends.</p>
+                <div class="container-two">
+                    <div class="about-me">
+                        <h1>About Me</h1>
+                        <p>JavaScript and Python developer based in Brooklyn, NY. Possess strong skills in communication, function, and project management that help tech companies build beautiful, responsive applications. A life spent learning has led me to many interesting places, including a superintendent role in a Brooklyn apartment building and constructing solutions in the trades for many years.</p>
+                    </div>
+                </div>
+                <div class="logos">
+                    <img src="https://www.svgrepo.com/show/473654/html5.svg" alt="">
+                    <img src="https://www.svgrepo.com/show/473577/css3.svg" alt="">
+                    <img src="https://www.svgrepo.com/show/310932/javascript.svg" alt="">
+                    <img src="https://www.svgrepo.com/show/369644/vue.svg" alt="">
+                    <img src="https://www.svgrepo.com/show/439173/git.svg" alt="">
+                    <img src="https://www.svgrepo.com/show/426053/git.svg" alt="">
+                    <img src="https://www.svgrepo.com/show/473729/mongodb.svg" alt="">
+                    <img src="https://www.svgrepo.com/show/330398/express.svg" alt="">
+                    <img src="https://www.svgrepo.com/show/424896/react-logo-programming-2.svg" alt="">
+                    <img src="https://www.svgrepo.com/show/353657/django-icon.svg" alt="">
+                    <img src="https://www.svgrepo.com/show/377688/text-x-python.svg" alt="">
+                    <img src="https://www.svgrepo.com/show/331300/aws.svg" alt="">
+                    <img src="https://www.svgrepo.com/show/306463/netlify.svg" alt="">
+                    <img src="https://camo.githubusercontent.com/add2c9721e333f0043ac938f3dadbc26a282776e01b95b308fcaba5afaf74ae3/68747470733a2f2f6173736574732e76657263656c2e636f6d2f696d6167652f75706c6f61642f76313538383830353835382f7265706f7369746f726965732f76657263656c2f6c6f676f2e706e67" alt="">
                 </div>
             </div>
         </div>
@@ -50,31 +52,41 @@ justify-content: flex-end;
 .router-link{
 text-decoration: none;
 }
+/* .outer-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:space-between;
+    width: 100%;
+} */
 .wrapper{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 10px 0px;
 }
 .main-container{
-    display: flex;
-    flex-direction: row;
-    width: 60%;
+    display: grid;
+    grid-template-areas: 
+    "one two"
+    "tech tech";
+    grid-template-columns: 40% 60%;
+    width: 80%;
 }
 .container-one{
     /* padding: 2.5%; */
-    width: 40%;
+    /* width: 40%; */
     border-radius: 25px;
+    grid-area: one;
 }
 .profile img{
     height: 13rem;
     border-radius: 10%;
 }
 .container-two{
-    width: 70%;
+    /* width: 70%; */
     padding: 15px;
     border-radius: 25px;
-    
+    grid-area: two;
 }
 .about-me{
     text-align: left;
@@ -83,6 +95,25 @@ text-decoration: none;
 .logos img{
     height: 3rem;
 }
+.logos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* width: 200px; */
+    grid-area: tech;
+    padding-left: 50px;
+}
+.technology-section{
+    min-width: 100px;
+    object-fit: contain;
+}
+.profile{
+        padding-left: 0%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
 @media only screen and (max-width: 950px){
     .main-container{
         width: 95%;

@@ -8,7 +8,7 @@
           <router-link class="router-link" to="/">home</router-link>
           <router-link class="router-link" to="/projects">projects</router-link>
           <!-- <router-link class="router-link" to="/resume">resume</router-link> -->
-          <router-link class="router-link" to="/contact">contact</router-link>
+          <router-link class="router-link" to="/blog">blog</router-link>
       </div>
       
   </nav>
@@ -29,6 +29,7 @@ h1 + h4 {
   display: flex;
   align-items:center;
   gap: 15px;
+  padding-right: 80px;
 }
 .name-title{
   display: flex;

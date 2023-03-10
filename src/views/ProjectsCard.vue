@@ -34,7 +34,7 @@
     </div> -->
 
     <!-- FOR DEVELOPMENT -->
-    <div class="main-container">
+    <div class="main-container page">
         <div class="project-card" v-for="(items, index) in projectData.ProjectsArray" v-bind:key="items">
             <h2>{{projectData.ProjectsArray[index].Title}}</h2>
             <div class="card_inner">
@@ -50,7 +50,6 @@
                         <li>{{projectData.ProjectsArray[index].FeatureThree}}</li>
                         <li>{{projectData.ProjectsArray[index].FeatureFour}}</li>
                     </ul>
-                    
                     <div class="links">
                         <a :href="projectData.ProjectsArray[index].Github" target="_blank">
                             <img src="https://www.svgrepo.com/show/68072/github-logo-face.svg" alt="">
@@ -164,7 +163,7 @@
         gap: 10px;
         margin: 10px;
         width: 30%;
-        min-height: 645px;
+        min-height: 750px;
         min-width: 245px;
         height: 100%;
         flex-wrap: 0 0 20%;
@@ -201,6 +200,29 @@
     .links img:hover{
         background-color: rgb(9, 9, 236, .5);
         border-radius: 20px;
+    }
+    @media only screen and (max-width: 850px){
+        *{
+            box-sizing: border-box;
+        }
+        .project-card img{
+            height: auto;
+            max-width: 300px;
+        }
+        .project-card{
+        display: flex;
+        flex-direction: column;
+        margin: 10px;
+        padding: 0px;
+        width: 300px;
+        height: fit-content;
+        min-height: 600px;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        align-items: center;
+        background-color: #f2f2f2;
+        
+    }
     }
     @media only screen and (max-width: 450px){
         *{
