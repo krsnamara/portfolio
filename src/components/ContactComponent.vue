@@ -146,4 +146,36 @@ p{
         padding: 5px;
     }
         }
+@media only screen and (max-width: 450px){
+    h1{
+        font-size: 1.2rem;
+    }
+    p{
+        font-size: .9rem;
+    }
+    .message{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        margin: 2.5%;
+        padding: 0px;
+        width: 90%;
+    }
+    .wrapper{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-right: 0px;
+    }
+    .main-container{
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        width: 80%;
+        margin: 0px 0px 15px 0px;
+        padding: 5px;
+    }
+        }
 </style>

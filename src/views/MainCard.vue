@@ -14,6 +14,7 @@
                     <div class="about-me">
                         <h1>About Me</h1>
                         <p>JavaScript and Python developer based in Brooklyn, NY. Possess strong skills in communication, function, and project management that help tech companies build beautiful, responsive applications. A life spent learning has led me to many interesting places, including a superintendent role in a Brooklyn apartment building and constructing solutions in the trades for many years.</p>
+                        <h3>Technologies</h3>
                     </div>
                 </div>
                 <div class="logos">
@@ -73,8 +74,6 @@ text-decoration: none;
     width: 80%;
 }
 .container-one{
-    /* padding: 2.5%; */
-    /* width: 40%; */
     border-radius: 25px;
     grid-area: one;
 }
@@ -91,6 +90,9 @@ text-decoration: none;
 .about-me{
     text-align: left;
     border-radius: 25px;
+}
+.about-me h3{
+    display: none;
 }
 .logos img{
     height: 3rem;
@@ -122,6 +124,12 @@ text-decoration: none;
 @media only screen and (max-width: 450px){
     *{
         box-sizing: border-box;
+    }
+    .technology-section h3 {
+        display: none;
+    }
+    .about-me h3{
+    display: block;
     }
     .wrapper{
         display: flex;
@@ -163,6 +171,14 @@ text-decoration: none;
     .about-me{
         text-align: left;
         border-radius: 25px;
+    }
+    .logos{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        /* width: 200px; */
+        grid-area: tech;
+        padding: 20px;
     }
     .logos img{
         height: 2rem;

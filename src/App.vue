@@ -68,6 +68,12 @@ nav a.router-link-exact-active {
     text-decoration: none;
 }
 .page {
-    margin-top: 10rem!important;
+    margin-top: 8rem!important;
+}
+@media only screen and (max-width: 450px){
+  .page {
+      margin-top: 6rem!important;
+  }
+
 }
 </style>
