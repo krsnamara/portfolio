@@ -10,7 +10,7 @@
             "FeatureThree" : "Built out two event listeners, one for the setup and the second for the punchline.",
             "FeatureFour" : "Refactored third party RapidAPI documentation to fit project needs.",
             "Github" : "https://github.com/krsnamara/dad-jokes-all-day",
-            "LiveLink" : "https://sacredhoundstore.herokuapp.com/"
+            "LiveLink" : "https://krsnamara.github.io/dad-jokes-all-day/"
         },
         {
             "id" : 2,
@@ -21,8 +21,8 @@
             "FeatureTwo" : "Full CRUD for signed in Users to create profiles and job postings.",
             "FeatureThree" : "MongoDB connection to store User data.",
             "FeatureFour" : "Express Sessions Authentication with protected routes.",           
-            "Github" : "https://github.com/krsnamara/dad-jokes-all-day",
-            "LiveLink" : "https://sacredhoundstore.herokuapp.com/"
+            "Github" : "https://github.com/krsnamara/FitzList",
+            "LiveLink" : "https://project2forgeneralassembly.herokuapp.com/"
         },
         {
             "id" : 3,

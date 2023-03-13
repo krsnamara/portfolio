@@ -18,8 +18,6 @@
                     </div>
                 </div>
                 <div class="logos">
-                    <img src="https://www.svgrepo.com/show/473654/html5.svg" alt="">
-                    <img src="https://www.svgrepo.com/show/473577/css3.svg" alt="">
                     <img src="https://www.svgrepo.com/show/310932/javascript.svg" alt="">
                     <img src="https://www.svgrepo.com/show/369644/vue.svg" alt="">
                     <img src="https://www.svgrepo.com/show/439173/git.svg" alt="">
