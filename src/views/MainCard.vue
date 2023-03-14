@@ -55,13 +55,6 @@ justify-content: flex-end;
 .router-link{
 text-decoration: none;
 }
-/* .outer-wrapper{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content:space-between;
-    width: 100%;
-} */
 .wrapper{
     display: flex;
     justify-content: center;

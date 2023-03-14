@@ -22,6 +22,9 @@ export default {
 </script>
 
 <style>
+html{
+  scroll-behavior: smooth;
+}
 body{
   background-color: white;
   margin: 0;
