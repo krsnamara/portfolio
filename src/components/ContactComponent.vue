@@ -1,5 +1,6 @@
 <template>
-    <div class="wrapper">
+    
+    <div id="contact-id" class="wrapper">
         <div class="message">
             <h1>Get in touch with me!</h1>
             <p>Feel free to send me an email about projects you have in mind, collaborations, job opportunities, jokes that make you laugh...</p>

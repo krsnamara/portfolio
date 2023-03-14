@@ -34,11 +34,15 @@
             </div>
         </div>
     </div>
+    <ProjectsDisplay />
     </template>
     
 <script>
+import ProjectsDisplay from '../components/ProjectsDisplay.vue'
 export default {
-
+    components: {
+        ProjectsDisplay
+    },
 }
 </script>
 
@@ -182,4 +186,6 @@ text-decoration: none;
         height: 2rem;
     }
 }
+/* Styles for Projects Components */
+
 </style>
