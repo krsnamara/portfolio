@@ -3,7 +3,7 @@
         <div class="footer-wrapper">
             <div class="footer-links">
                 <router-link class="router-link" to="/">home</router-link>
-                <router-link class="router-link" to="/projects">projects</router-link>
+                <!-- <router-link class="router-link" to="/projects">projects</router-link> -->
                 <!-- <router-link class="router-link" to="/resume">resume</router-link> -->
                 <router-link class="router-link" to="/blog">blog</router-link>
             </div>
