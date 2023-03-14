@@ -2,42 +2,6 @@
     "ProjectsArray" : [
         {
             "id" : 1,
-            "Title" : "Dad Jokes All Day",
-            "About" : "Dad Joke emulator",
-            "Image" : "https://github.com/krsnamara/dad-jokes-all-day/raw/master/assests/production1.png",
-            "FeatureOne" : "API call using Ajax to a third party resource to display data.",
-            "FeatureTwo" : "Used jQuery to select HTML id tags for DOM manipulation.",
-            "FeatureThree" : "Built out two event listeners, one for the setup and the second for the punchline.",
-            "FeatureFour" : "Refactored third party RapidAPI documentation to fit project needs.",
-            "Github" : "https://github.com/krsnamara/dad-jokes-all-day",
-            "LiveLink" : "https://krsnamara.github.io/dad-jokes-all-day/"
-        },
-        {
-            "id" : 2,
-            "Title" : "Fitz-List",
-            "About" : "LinkedIn for the Trades",
-            "Image" : "https://github.com/krsnamara/FitzList/raw/master/public/imgs/readme-img/fitzlist-square.png", 
-            "FeatureOne" : "Express Full Stack app using EJS templates.",
-            "FeatureTwo" : "Full CRUD for signed in Users to create profiles and job postings.",
-            "FeatureThree" : "MongoDB connection to store User data.",
-            "FeatureFour" : "Express Sessions Authentication with protected routes.",           
-            "Github" : "https://github.com/krsnamara/FitzList",
-            "LiveLink" : "https://project2forgeneralassembly.herokuapp.com/"
-        },
-        {
-            "id" : 3,
-            "Title" : "CheeZus",
-            "About" : "Pizza delivery App",
-            "Image" : "https://github.com/kiko-nunez/pizza-frontend/raw/main/src/images/production.png",
-            "FeatureOne" : "Collaborated with a team of four to brainstorm project idea, split tasks, and sprint to achieve deadline.",
-            "FeatureTwo" : "Built out an Express API with full CRUD functionality.",
-            "FeatureThree" : "Constructed a React front end with Async fetch requests to access MongoDB database.",
-            "FeatureFour" : "Generated custom images for CSS animation.",
-            "Github" : "https://github.com/krsnamara/pizza-frontend",
-            "LiveLink" : "https://cheezus.netlify.app/"
-        },
-        {
-            "id" : 4,
             "Title" : "Sacred Hound Designs",
             "About" : "E-commerce site",
             "Image" : "https://github.com/krsnamara/sacredhoundstore/raw/master/main_app/static/images/production.png",
@@ -49,16 +13,52 @@
             "LiveLink" : "https://sacredhoundstore.herokuapp.com/"
         },
         {
-            "id" : 5,
+            "id" : 2,
             "Title" : "Portfolio Blog In Vue.js",
             "About" : "Blog Style Portfolio",
-            "Image" : "https://github.com/krsnamara/portfolio-in-vuejs/raw/master/src/assets/production.png",
+            "Image" : "https://github.com/krsnamara/portfolio-in-vuejs/raw/master/src/assets/product.png",
             "FeatureOne" : "Independent from Instructional team, I learned how to build a blog style portfolio app in a brand new tech in 3 days.",
             "FeatureTwo" : "Deployed an AWS server less back end with a DynamoDB database to hold project information.",
             "FeatureThree" : "Built an input form that allows portfolio owner to add new, edit and delete projects.",
             "FeatureFour" : "Utilized Lambda Function and HTTP API to allow project information to be dynamically displayed upon request.",
             "Github" : "https://github.com/krsnamara/portfolio-in-vuejs",
             "LiveLink" : "https://martinportvue.vercel.app/"
+        },
+        {
+            "id" : 3,
+            "Title" : "Dad Jokes All Day",
+            "About" : "Dad Joke emulator",
+            "Image" : "https://github.com/krsnamara/dad-jokes-all-day/raw/master/assests/production1.png",
+            "FeatureOne" : "API call using Ajax to a third party resource to display data.",
+            "FeatureTwo" : "Used jQuery to select HTML id tags for DOM manipulation.",
+            "FeatureThree" : "Built out two event listeners, one for the setup and the second for the punchline.",
+            "FeatureFour" : "Refactored third party RapidAPI documentation to fit project needs.",
+            "Github" : "https://github.com/krsnamara/dad-jokes-all-day",
+            "LiveLink" : "https://krsnamara.github.io/dad-jokes-all-day/"
+        },
+        {
+            "id" : 4,
+            "Title" : "CheeZus",
+            "About" : "Pizza delivery App",
+            "Image" : "https://github.com/kiko-nunez/pizza-frontend/raw/main/src/images/production.png",
+            "FeatureOne" : "Collaborated with a team of four to brainstorm project idea, split tasks, and sprint to achieve deadline.",
+            "FeatureTwo" : "Built out an Express API with full CRUD functionality.",
+            "FeatureThree" : "Constructed a React front end with Async fetch requests to access MongoDB database.",
+            "FeatureFour" : "Generated custom images for CSS animation.",
+            "Github" : "https://github.com/krsnamara/pizza-frontend",
+            "LiveLink" : "https://cheezus.netlify.app/"
+        },
+        {
+            "id" : 5,
+            "Title" : "Fitz-List",
+            "About" : "LinkedIn for the Trades",
+            "Image" : "https://github.com/krsnamara/FitzList/raw/master/public/imgs/readme-img/fitzlist-square.png", 
+            "FeatureOne" : "Express Full Stack app using EJS templates.",
+            "FeatureTwo" : "Full CRUD for signed in Users to create profiles and job postings.",
+            "FeatureThree" : "MongoDB connection to store User data.",
+            "FeatureFour" : "Express Sessions Authentication with protected routes.",           
+            "Github" : "https://github.com/krsnamara/FitzList",
+            "LiveLink" : "https://project2forgeneralassembly.herokuapp.com/"
         }
     ]
 }

@@ -4,7 +4,8 @@
             <h2>{{projectData.ProjectsArray[index].Title}}</h2>
             <div class="card_inner">
                 <div class="image-wrapper">
-                    <img :src="projectData.ProjectsArray[index].Image" alt=""> 
+                    <a :href="projectData.ProjectsArray[index].LiveLink" target="_blank"><img :src="projectData.ProjectsArray[index].Image" alt=""></a>
+                     
                 </div>
                 <h3>{{ projectData.ProjectsArray[index].About}}</h3>
                 <p>____________________________</p>
