@@ -59,6 +59,7 @@ text-decoration: none;
     display: flex;
     justify-content: center;
     align-items: center;
+    /* width: 80%; */
 }
 .main-container{
     display: grid;
@@ -88,6 +89,9 @@ text-decoration: none;
 }
 .about-me h3{
     display: none;
+}
+.about-me p{
+    max-width: 680px;
 }
 .logos img{
     height: 3rem;

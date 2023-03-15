@@ -1,5 +1,4 @@
-<template>
-    
+<template>  
     <div id="contact-id" class="wrapper">
         <div class="message">
             <h1>Get in touch with me!</h1>
@@ -78,7 +77,9 @@ export default {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-right: 75px;
+    /* margin-right: 75px;
+    margin-top: 100px; */
+    margin: 90px 75px 90px 0px;
 }
 .main-container{
     display: flex;
