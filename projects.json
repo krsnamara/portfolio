@@ -16,7 +16,7 @@
             "id" : 2,
             "Title" : "Let the Kids Play",
             "About" : "CSS and Vanilla Kids Keyboard",
-            "Image" : "public/keys_deployed.png",
+            "Image" : "https://raw.githubusercontent.com/krsnamara/let-the-kids-play/main/imgs/deployed.png",
             "FeatureOne" : "Constructed event listeners and DOM manipulation with Vanilla JavaScript not using any framework or library ",
             "FeatureTwo" : "Using CSS position and border radius, I shaped and place the keyboard elements.",
             "FeatureThree" : "Deployed prototype using GitHub Pages with automatic updates when new version pushed.",
