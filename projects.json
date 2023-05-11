@@ -14,6 +14,18 @@
         },
         {
             "id" : 2,
+            "Title" : "Let the Kids Play",
+            "About" : "CSS and Vanilla Kids Keyboard",
+            "Image" : "https://github.com/krsnamara/portfolio-in-vuejs/raw/master/src/assets/product.png",
+            "FeatureOne" : "Constructed event listeners and DOM manipulation with Vanilla JavaScript not using any framework or library ",
+            "FeatureTwo" : "Using CSS position and border radius, I shaped and place the keyboard elements.",
+            "FeatureThree" : "Deployed prototype using GitHub Pages.",
+            "FeatureFour" : "Future enhancements include the ability to record a 10 second track and change to different sound kits.",
+            "Github" : "https://github.com/krsnamara/let-the-kids-play",
+            "LiveLink" : "https://krsnamara.github.io/let-the-kids-play/"
+        },
+        {
+            "id" : 3,
             "Title" : "Portfolio Blog In Vue.js",
             "About" : "Blog Style Portfolio",
             "Image" : "https://github.com/krsnamara/portfolio-in-vuejs/raw/master/src/assets/product.png",
@@ -25,7 +37,7 @@
             "LiveLink" : "https://martinportvue.vercel.app/"
         },
         {
-            "id" : 3,
+            "id" : 4,
             "Title" : "Dad Jokes All Day",
             "About" : "Dad Joke emulator",
             "Image" : "https://github.com/krsnamara/dad-jokes-all-day/raw/master/assests/production1.png",
@@ -37,7 +49,7 @@
             "LiveLink" : "https://krsnamara.github.io/dad-jokes-all-day/"
         },
         {
-            "id" : 4,
+            "id" : 5,
             "Title" : "CheeZus",
             "About" : "Pizza delivery App",
             "Image" : "https://github.com/kiko-nunez/pizza-frontend/raw/main/src/images/production.png",
@@ -49,7 +61,7 @@
             "LiveLink" : "https://cheezus.netlify.app/"
         },
         {
-            "id" : 5,
+            "id" : 6,
             "Title" : "Fitz-List",
             "About" : "LinkedIn for the Trades",
             "Image" : "https://github.com/krsnamara/FitzList/raw/master/public/imgs/readme-img/fitzlist-square.png", 
