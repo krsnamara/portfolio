@@ -19,7 +19,7 @@
             "Image" : "https://github.com/krsnamara/let-the-kids-play/blob/main/imgs/deployed.png",
             "FeatureOne" : "Constructed event listeners and DOM manipulation with Vanilla JavaScript not using any framework or library ",
             "FeatureTwo" : "Using CSS position and border radius, I shaped and place the keyboard elements.",
-            "FeatureThree" : "Deployed prototype using GitHub Pages.",
+            "FeatureThree" : "Deployed prototype using GitHub Pages with automatic updates when new version pushed.",
             "FeatureFour" : "Future enhancements include the ability to record a 10 second track and change to different sound kits.",
             "Github" : "https://github.com/krsnamara/let-the-kids-play",
             "LiveLink" : "https://krsnamara.github.io/let-the-kids-play/"
