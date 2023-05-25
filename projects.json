@@ -1,6 +1,18 @@
 {
     "ProjectsArray" : [
         {
+            "id" : 0,
+            "Title" : "AccessiCity",
+            "About" : "Event and venue booking and rating app specifically focused on accessibility",
+            "Image" : "https://github.com/krsnamara/allAccessClient/raw/main/src/assets/readme/homepage-logged-out.jpg",
+            "FeatureOne" : "Spearheaded cross-functional team of developers and UX/UI designers, successfully leading implementation.",
+            "FeatureTwo" : "Built a full stack Django app using the batteries included features for admin and authentication.",
+            "FeatureThree" : "Revamped file structures and architecture in collaboration with the development team, resulting in enhanced development and deployment speeds for AccessiCity, an innovative event and venue booking app.",
+            "FeatureFour" : "Created seamless and intuitive user interface based on precise UX/UI specs, ensuring a responsive, user-friendly experience and an impactful event and venue booking app.",
+            "Github" : "https://github.com/krsnamara/allAccessClient",
+            "LiveLink" : "https://all-access-client.vercel.app/"
+        },
+        {
             "id" : 1,
             "Title" : "Sacred Hound Designs",
             "About" : "E-commerce site",
