@@ -1,88 +1,88 @@
 {
-    "ProjectsArray" : [
-        {
-            "id" : 0,
-            "Title" : "AccessiCity",
-            "About" : "Event and venue booking and rating app specifically focused on accessibility",
-            "Image" : "https://github.com/krsnamara/allAccessClient/raw/main/src/assets/readme/homepage-logged-out.jpg",
-            "FeatureOne" : "Spearheaded cross-functional team of developers and UX/UI designers, successfully leading implementation.",
-            "FeatureTwo" : "Built a full stack Django app using the batteries included features for admin and authentication.",
-            "FeatureThree" : "Revamped file structures and architecture in collaboration with the development team, resulting in enhanced development and deployment speeds for AccessiCity, an innovative event and venue booking app.",
-            "FeatureFour" : "Created seamless and intuitive user interface based on precise UX/UI specs, ensuring a responsive, user-friendly experience and an impactful event and venue booking app.",
-            "Github" : "https://github.com/krsnamara/allAccessClient",
-            "LiveLink" : "https://all-access-client.vercel.app/"
-        },
-        {
-            "id" : 1,
-            "Title" : "Sacred Hound Designs",
-            "About" : "E-commerce site",
-            "Image" : "https://github.com/krsnamara/sacredhoundstore/raw/master/main_app/static/images/production.png",
-            "FeatureOne" : "Utilized JSON Web Tokens and localStorage to store encrypted user information client-side.",
-            "FeatureTwo" : "Built a full stack Django app using the batteries included features for admin and authentication.",
-            "FeatureThree" : "Deployed with Heroku and a Bit.io database to hold product information.",
-            "FeatureFour" : "Employed Materialize and custom CSS to style templates for a clean, modern look.",
-            "Github" : "https://github.com/krsnamara/sacredhoundstore",
-            "LiveLink" : "https://sacredhoundstore.herokuapp.com/"
-        },
-        {
-            "id" : 2,
-            "Title" : "Let the Kids Play",
-            "About" : "CSS and Vanilla Kids Keyboard",
-            "Image" : "https://raw.githubusercontent.com/krsnamara/let-the-kids-play/main/imgs/deployed.png",
-            "FeatureOne" : "Constructed event listeners and DOM manipulation with Vanilla JavaScript not using any framework or library ",
-            "FeatureTwo" : "Using CSS position and border radius, I shaped and place the keyboard elements.",
-            "FeatureThree" : "Deployed prototype using GitHub Pages with automatic updates when new version pushed.",
-            "FeatureFour" : "Future enhancements include the ability to record a 10 second track and change to different sound kits.",
-            "Github" : "https://github.com/krsnamara/let-the-kids-play",
-            "LiveLink" : "https://krsnamara.github.io/let-the-kids-play/"
-        },
-        {
-            "id" : 3,
-            "Title" : "Portfolio Blog In Vue.js",
-            "About" : "Blog Style Portfolio",
-            "Image" : "https://github.com/krsnamara/portfolio-in-vuejs/raw/master/src/assets/product.png",
-            "FeatureOne" : "Independent from Instructional team, I learned how to build a blog style portfolio app in a brand new tech in 3 days.",
-            "FeatureTwo" : "Deployed an AWS server less back end with a DynamoDB database to hold project information.",
-            "FeatureThree" : "Built an input form that allows portfolio owner to add new, edit and delete projects.",
-            "FeatureFour" : "Utilized Lambda Function and HTTP API to allow project information to be dynamically displayed upon request.",
-            "Github" : "https://github.com/krsnamara/portfolio-in-vuejs",
-            "LiveLink" : "https://martinportvue.vercel.app/"
-        },
-        {
-            "id" : 4,
-            "Title" : "Dad Jokes All Day",
-            "About" : "Dad Joke emulator",
-            "Image" : "https://github.com/krsnamara/dad-jokes-all-day/raw/master/assests/production1.png",
-            "FeatureOne" : "API call using Ajax to a third party resource to display data.",
-            "FeatureTwo" : "Used jQuery to select HTML id tags for DOM manipulation.",
-            "FeatureThree" : "Built out two event listeners, one for the setup and the second for the punchline.",
-            "FeatureFour" : "Refactored third party RapidAPI documentation to fit project needs.",
-            "Github" : "https://github.com/krsnamara/dad-jokes-all-day",
-            "LiveLink" : "https://krsnamara.github.io/dad-jokes-all-day/"
-        },
-        {
-            "id" : 5,
-            "Title" : "CheeZus",
-            "About" : "Pizza delivery App",
-            "Image" : "https://github.com/kiko-nunez/pizza-frontend/raw/main/src/images/production.png",
-            "FeatureOne" : "Collaborated with a team of four to brainstorm project idea, split tasks, and sprint to achieve deadline.",
-            "FeatureTwo" : "Built out an Express API with full CRUD functionality.",
-            "FeatureThree" : "Constructed a React front end with Async fetch requests to access MongoDB database.",
-            "FeatureFour" : "Generated custom images for CSS animation.",
-            "Github" : "https://github.com/krsnamara/pizza-frontend",
-            "LiveLink" : "https://cheezus.netlify.app/"
-        },
-        {
-            "id" : 6,
-            "Title" : "Fitz-List",
-            "About" : "LinkedIn for the Trades",
-            "Image" : "https://github.com/krsnamara/FitzList/raw/master/public/imgs/readme-img/fitzlist-square.png", 
-            "FeatureOne" : "Express Full Stack app using EJS templates.",
-            "FeatureTwo" : "Full CRUD for signed in Users to create profiles and job postings.",
-            "FeatureThree" : "MongoDB connection to store User data.",
-            "FeatureFour" : "Express Sessions Authentication with protected routes.",           
-            "Github" : "https://github.com/krsnamara/FitzList",
-            "LiveLink" : "https://project2forgeneralassembly.herokuapp.com/"
-        }
-    ]
+  "ProjectsArray": [
+    {
+      "id": 0,
+      "Title": "AccessiCity",
+      "About": "Event and venue booking and rating app specifically focused on accessibility",
+      "Image": "https://github.com/krsnamara/allAccessClient/raw/main/src/assets/readme/homepage-logged-out.jpg",
+      "FeatureOne": "Spearheaded cross-functional team of developers and UX/UI designers, successfully leading implementation.",
+      "FeatureTwo": "Built a full stack Django app using the batteries included features for admin and authentication.",
+      "FeatureThree": "Revamped file structures and architecture in collaboration with the development team, resulting in enhanced development and deployment speeds for AccessiCity, an innovative event and venue booking app.",
+      "FeatureFour": "Created seamless and intuitive user interface based on precise UX/UI specs, ensuring a responsive, user-friendly experience and an impactful event and venue booking app.",
+      "Github": "https://github.com/krsnamara/allAccessClient",
+      "LiveLink": "https://all-access-client.vercel.app/"
+    },
+    {
+      "id": 1,
+      "Title": "Sacred Hound Designs",
+      "About": "E-commerce site",
+      "Image": "https://github.com/krsnamara/sacredhoundstore/raw/master/main_app/static/images/production.png",
+      "FeatureOne": "Utilized JSON Web Tokens and localStorage to store encrypted user information client-side.",
+      "FeatureTwo": "Built a full stack Django app using the batteries included features for admin and authentication.",
+      "FeatureThree": "Deployed with Heroku and a Bit.io database to hold product information.",
+      "FeatureFour": "Employed Materialize and custom CSS to style templates for a clean, modern look.",
+      "Github": "https://github.com/krsnamara/sacredhoundstore",
+      "LiveLink": "https://sacredhoundstore-production.up.railway.app/"
+    },
+    {
+      "id": 2,
+      "Title": "Let the Kids Play",
+      "About": "CSS and Vanilla Kids Keyboard",
+      "Image": "https://raw.githubusercontent.com/krsnamara/let-the-kids-play/main/imgs/deployed.png",
+      "FeatureOne": "Constructed event listeners and DOM manipulation with Vanilla JavaScript not using any framework or library ",
+      "FeatureTwo": "Using CSS position and border radius, I shaped and place the keyboard elements.",
+      "FeatureThree": "Deployed prototype using GitHub Pages with automatic updates when new version pushed.",
+      "FeatureFour": "Future enhancements include the ability to record a 10 second track and change to different sound kits.",
+      "Github": "https://github.com/krsnamara/let-the-kids-play",
+      "LiveLink": "https://krsnamara.github.io/let-the-kids-play/"
+    },
+    {
+      "id": 3,
+      "Title": "Portfolio Blog In Vue.js",
+      "About": "Blog Style Portfolio",
+      "Image": "https://github.com/krsnamara/portfolio-in-vuejs/raw/master/src/assets/product.png",
+      "FeatureOne": "Independent from Instructional team, I learned how to build a blog style portfolio app in a brand new tech in 3 days.",
+      "FeatureTwo": "Deployed an AWS server less back end with a DynamoDB database to hold project information.",
+      "FeatureThree": "Built an input form that allows portfolio owner to add new, edit and delete projects.",
+      "FeatureFour": "Utilized Lambda Function and HTTP API to allow project information to be dynamically displayed upon request.",
+      "Github": "https://github.com/krsnamara/portfolio-in-vuejs",
+      "LiveLink": "https://martinportvue.vercel.app/"
+    },
+    {
+      "id": 4,
+      "Title": "Dad Jokes All Day",
+      "About": "Dad Joke emulator",
+      "Image": "https://github.com/krsnamara/dad-jokes-all-day/raw/master/assests/production1.png",
+      "FeatureOne": "API call using Ajax to a third party resource to display data.",
+      "FeatureTwo": "Used jQuery to select HTML id tags for DOM manipulation.",
+      "FeatureThree": "Built out two event listeners, one for the setup and the second for the punchline.",
+      "FeatureFour": "Refactored third party RapidAPI documentation to fit project needs.",
+      "Github": "https://github.com/krsnamara/dad-jokes-all-day",
+      "LiveLink": "https://krsnamara.github.io/dad-jokes-all-day/"
+    },
+    {
+      "id": 5,
+      "Title": "CheeZus",
+      "About": "Pizza delivery App",
+      "Image": "https://github.com/kiko-nunez/pizza-frontend/raw/main/src/images/production.png",
+      "FeatureOne": "Collaborated with a team of four to brainstorm project idea, split tasks, and sprint to achieve deadline.",
+      "FeatureTwo": "Built out an Express API with full CRUD functionality.",
+      "FeatureThree": "Constructed a React front end with Async fetch requests to access MongoDB database.",
+      "FeatureFour": "Generated custom images for CSS animation.",
+      "Github": "https://github.com/krsnamara/pizza-frontend",
+      "LiveLink": "https://cheezus.netlify.app/"
+    },
+    {
+      "id": 6,
+      "Title": "Fitz-List",
+      "About": "LinkedIn for the Trades",
+      "Image": "https://github.com/krsnamara/FitzList/raw/master/public/imgs/readme-img/fitzlist-square.png",
+      "FeatureOne": "Express Full Stack app using EJS templates.",
+      "FeatureTwo": "Full CRUD for signed in Users to create profiles and job postings.",
+      "FeatureThree": "MongoDB connection to store User data.",
+      "FeatureFour": "Express Sessions Authentication with protected routes.",
+      "Github": "https://github.com/krsnamara/FitzList",
+      "LiveLink": "https://project2forgeneralassembly.herokuapp.com/"
+    }
+  ]
 }
